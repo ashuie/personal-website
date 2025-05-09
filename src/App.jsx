@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 function App() {
   return (
-    <div className = "bg-[#121212] text-gray-200 w-full h-full min-h-screen font-sans px-8 justify-center flex items-center">
+    <div className = "bg-[#121212] text-gray-200 w-full h-full min-h-screen font-sans px-8 py-8 justify-center flex items-center">
         
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-center gap-12">
             

@@ -32,24 +32,26 @@ export default function WindowTab() {
             <button
               key={tab.key}
               onClick={() => setActiveTab(tab.key)}
-              className={`flex-1 min-w-0 w-full md:w-auto md:flex-none truncate flex-shrink-0 px-8 py-4 md:py-2 border-r border-gray-600 transition-all duration-200
+              className={`flex-1 min-w-0 w-full md:w-auto md:flex-none truncate flex-shrink-0 px-4 md:px-8 py-4 md:py-2 border-r border-gray-600 transition-all duration-200
                 ${activeTab === tab.key ? 'bg-[#1a1d23] text-pink-300' : 'hover:text-pink-300'}`}
             >
               {tab.label}
             </button>
           ) : (
+            <div className="flex justify-center">
             <a
               key={tab.key}
               href={tab.href}
               target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center px-4 py-2 border-r-0 border-gray-600 md:border-r hover:text-pink-300 transition-all duration-200 max-w-[10rem]"
+              rel="noopener noreferrer" 
+              className="flex items-center justify-center px-4 md:px-8 py-2 border-r-0 border-gray-600 md:border-r hover:text-pink-300 transition-all duration-200"
             >
-              <span className="inline-flex items-center gap-1 overflow-hidden">
-                <span className="truncate flex-shrink-0">{tab.label}</span>
+              <span className="flex items-center gap-1 ">
+                <span className="truncate overflow-hidden">{tab.label}</span>
                 <FiExternalLink className="text-xs md:text-base flex-shrink-0" />
               </span>
             </a>
+            </div>
           ) 
         )}
         <div className="hidden md:flex md:ml-auto space-x-3 px-4 py-2 text-gray-400 text-sm md:text-lg">
