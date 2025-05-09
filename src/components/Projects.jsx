@@ -42,12 +42,12 @@ const projects = [
 export default function Projects() {
   return (
     <motion.main
-      className="max-w-4xl mx-auto px-4 py-12"
+      className="max-w-4xl mx-auto px-4 py-4"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8 }}
     >
-      <h2 className="text-3xl font-bold mb-8 text-center">Projects</h2>
+      <h2 className="text-2xl font-bold mb-8 text-center">projects</h2>
       <div className="grid gap-6 sm:grid-cols-2">
         {projects.map((project, index) => (
           <a
