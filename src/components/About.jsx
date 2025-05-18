@@ -8,13 +8,13 @@ export default function About() {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
         >
-        <div className="w-full px-6 py-4 space-y-6 justify-center">
+        <div className="w-full px-6 py-8 space-y-6 justify-center">
             <section>
                 <h2 className="text-2xl font-semibold mb-3">about</h2>
                 <p className="text-gray-400 leading-relaxed">
-                Hi! I'm Ashley, a student in the Turing Scholars Program at UT studying
-                computer science and math. I'm interested in distributed systems, 
-                networking, and cryptography.<br />
+                Hi! I'm Ashley, a student in the Turing Scholars Program at UT Austin studying
+                computer science and math. I'm interested in distributed systems & transactions, networking,
+                and vector databases.<br/>
                 Some student orgs I'm involved with include Turing Scholars Student Association,
                 Directed Reading Program, Women in Computer Science, and volunteering with CS
                 Roadshow. 
@@ -24,8 +24,7 @@ export default function About() {
             <section>
                 <h2 className="text-2xl font-semibold mb-3">current focus</h2>
                 <p className="text-gray-400 leading-relaxed">
-                - Working on concurrency control protocols and retry policies for a distributed
-                CXL memory database at the UT Data Systems lab <br/>
+                - Designing & optimizing range-filtered ANN search algorithms using graph-based indexing and subgraph composition under the UT Data Systems Lab <br/>
                 - Completing coursework in Operating Systems, Computer Science Ethics, and Game Theory
                 </p>
             </section>

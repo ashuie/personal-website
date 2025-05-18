@@ -62,11 +62,15 @@ export default function WindowTab() {
       </div>
       </div>
         
-      <div key={activeTab} className="p-6 h-[70vh] text-gray-200 font-sans overflow-y-auto shrink-0 justify-end">
-        {activeTab === 'home' && <div><About/></div>}
-        {activeTab === 'projects' && <div><Projects/></div>}
-        {activeTab === 'resume'}
+      <div key={activeTab} className="h-[70vh] text-gray-200 overflow-hidden">
+        <div className="h-full overflow-y-auto px-4 sm:px-6">
+          <div className="flex flex-col min-h-full justify-start sm:justify-center">
+            {activeTab === 'home' && <div><About/></div>}
+            {activeTab === 'projects' && <div><Projects/></div>}
+            {activeTab === 'resume'}
+          </div>
+        </div>
       </div>
-    </div>
+      </div>
   );
 }

@@ -42,7 +42,7 @@ const projects = [
 export default function Projects() {
   return (
     <motion.main
-      className="max-w-4xl mx-auto px-4 py-4"
+      className="max-w-4xl mx-auto px-4 py-8"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8 }}
