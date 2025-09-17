@@ -33,7 +33,7 @@ export default function About() {
             <section>
                 <h2 className="text-2xl font-semibold mb-3">get in touch</h2>
                 <p className="text-gray-400 leading-relaxed">
-                I'm seeking software engineering internship roles for summer 2026.
+                I'm seeking software engineering internship roles for summer 2026 with work authorization for US & Canada.
                 Please reach out with any opportunities!
                 </p>
             </section>
