@@ -13,8 +13,8 @@ export default function About() {
                 <h2 className="text-2xl font-semibold mb-3">about</h2>
                 <p className="text-gray-400 leading-relaxed">
                 Hi! I'm Ashley, a Turing Scholar student at UT Austin studying
-                computer science and math. I'm interested in distributed systems & transactions, networking,
-                and vector databases.<br/>
+                computer science and math. I'm interested in databases, distributed systems, and 
+                theory.<br/>
                 Some student orgs I'm involved with include Turing Scholars Student Association,
                 Directed Reading Program, Women in Computer Science, and volunteering with CS
                 Roadshow. 
@@ -24,8 +24,9 @@ export default function About() {
             <section>
                 <h2 className="text-2xl font-semibold mb-3">current focus</h2>
                 <p className="text-gray-400 leading-relaxed">
-                - Designing & optimizing range-filtered ANN search algorithms using graph-based indexing and subgraph composition under the UT Data Systems Lab <br/>
-                - Completing coursework in Operating Systems, Computer Science Ethics, and Game Theory
+                - UT Data Systems Lab: Range-filtered ANN search algorithms using graph-based indexing & subgraph composition<br/>
+                - Undergraduate Course Assistant: Turing CS109 <br/>
+                - Coursework: Honors Operating Systems, Game Theory, Computer Science Ethics
                 </p>
             </section>
 
