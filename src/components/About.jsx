@@ -17,23 +17,24 @@ export default function About() {
                 theory.<br/>
                 Some student orgs I'm involved with include Turing Scholars Student Association,
                 Directed Reading Program, Women in Computer Science, and volunteering with CS
-                Roadshow. 
+                Roadshow and CS Ambassadors.
                 </p>
             </section>
 
             <section>
-                <h2 className="text-2xl font-semibold mb-3">current focus</h2>
+                <h2 className="text-2xl font-semibold mb-3">current</h2>
                 <p className="text-gray-400 leading-relaxed">
-                - UT Data Systems Lab: Range-filtered ANN search algorithms using graph-based indexing & subgraph composition<br/>
-                - Undergraduate Course Assistant: Turing CS109 <br/>
-                - Coursework: Honors Operating Systems, Game Theory, Computer Science Ethics
+                My coursework currently includes algorithms honors, machine learning honors, energy efficient computing,
+                real analysis, and stochastic processes. <br/>
+
+                I am incoming Summer 2026 as a Software Engineer Intern at DoorDash, and incoming Fall 2026 as a 
+                Software Development Engineer Intern at Amazon Web Services - Annapurna Labs.
                 </p>
             </section>
 
             <section>
                 <h2 className="text-2xl font-semibold mb-3">get in touch</h2>
                 <p className="text-gray-400 leading-relaxed">
-                I'm seeking software engineering internship roles for summer 2026 with work authorization for US & Canada.
                 Please reach out with any opportunities!
                 </p>
             </section>
