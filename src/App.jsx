@@ -54,7 +54,7 @@ export default function App() {
         initial={{ opacity: 0, y: 16 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-        className="relative z-10 w-full max-w-5xl flex flex-col lg:flex-row items-center gap-10"
+        className="relative z-10 w-full max-w-5xl flex flex-col lg:flex-row items-stretch lg:items-center gap-6 sm:gap-10"
       >
         {/* Left sidebar */}
         <aside className="w-full lg:w-52 flex-shrink-0 flex flex-col items-center lg:items-start text-center lg:text-left">

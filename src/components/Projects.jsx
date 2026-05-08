@@ -95,7 +95,7 @@ function Card({ p, i }) {
 
 export default function Projects() {
   return (
-    <div className="px-6 py-7">
+    <div className="w-full px-4 sm:px-6 py-5 sm:py-7">
       <motion.h2
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

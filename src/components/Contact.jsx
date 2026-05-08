@@ -32,7 +32,7 @@ const ASCII = `
 
 export default function Contact() {
   return (
-    <div className="px-4 sm:px-8 py-5 sm:py-8">
+    <div className="w-full px-4 sm:px-8 py-5 sm:py-8">
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-10 items-center">
 
         {/* Left: contact content */}

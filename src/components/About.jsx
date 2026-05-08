@@ -36,7 +36,7 @@ const up = (delay = 0) => ({
 
 export default function About() {
   return (
-    <div className="px-4 sm:px-8 py-5 sm:py-8 max-w-4xl">
+    <div className="w-full px-4 sm:px-8 py-5 sm:py-8">
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-10 items-center">
 
         {/* Text content */}
@@ -73,7 +73,7 @@ export default function About() {
 
           <motion.div {...up(0.2)} className="mt-6">
             <a
-              href="/2025_resume.pdf"
+              href="/2026_resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-sm text-pink-300/70 hover:text-pink-300 transition-colors duration-300 group"
