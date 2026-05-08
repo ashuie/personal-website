@@ -86,7 +86,7 @@ export default function Contact() {
           {...fade(0.1)}
           className="hidden lg:flex lg:col-span-2 items-center justify-center"
         >
-          <pre className="text-[10px] leading-[1.6] text-pink-300/75 font-mono select-none">
+          <pre className="text-[10px] leading-[1.3] tracking-tight text-pink-300/75 font-mono select-none">
             {ASCII}
           </pre>
         </motion.div>

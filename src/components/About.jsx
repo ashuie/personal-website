@@ -87,7 +87,7 @@ export default function About() {
         {/* ASCII art */}
         <motion.div {...up(0.1)} className="hidden lg:block lg:col-span-2">
           <div className="rounded-xl flex flex-col items-center justify-center py-2">
-            <pre className="text-[10px] leading-[1.6] text-pink-300/75 font-mono select-none">
+            <pre className="text-[10px] leading-[1.3] tracking-tight text-pink-300/75 font-mono select-none">
               {ASCII}
             </pre>
           </div>
